@@ -1,0 +1,258 @@
+@import "variables";
+
+// MEDIA: Celular chico
+@media (min-width: 0px) and (max-width: 600px) {
+
+    /* NAV GENERAL*/
+    .carousel-inner img {
+        height: 50vh;
+    }
+
+    .carousel-caption {
+        position: absolute; 
+        right: 15%;
+        top: 90px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .carousel-caption h1{
+        font-size: 50px;
+    }
+
+    .carousel-caption h5{
+        display: none;
+    }
+
+    .botonesHome a input{
+        height: 40px;
+        width: 120px;
+        font-size: 13px;
+    }
+
+    .botonesHomeEspeciales a input{
+        height: 40px;
+        width: 120px;
+        font-size: 13px;
+    }
+
+    /* MENU INDEX*/
+    .menuIndex {
+        width: 100%;
+        height: auto;
+    }
+
+    .textoMenuContainer {
+        display: flex;
+        height: 80px;
+    }
+
+    .texto-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 750px;
+        letter-spacing: 1px;
+    }
+
+    .texto-menu h3{
+        font-size: 28px;
+        color: #333;
+        animation: bounceIn;
+        animation-duration: 1s;
+        letter-spacing: 1px;
+    }
+    .texto-menu p{
+        font-size: 18px;
+        margin-top: 25px;
+        color: #333;
+        letter-spacing: 1px;
+    }
+
+    .titulo h3{
+        font-size: 38px;
+    }
+
+    .texto-menu h3{
+        font-size: 22px;
+    }
+
+    .texto-menu {
+        width: 85%;
+    }
+
+    .texto-menu h3{
+        font-size: 26px;
+    }
+
+    .texto-menu p{
+        font-size: 18px;
+    }
+
+    /*BARRA INFO*/
+    .enviosContainer h3{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* CONTAINER DE PAGOS*/
+    .containerPagosYoPadre{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .containerPagosYO{
+        width: 50%;
+    }
+
+    /* NEWSLETTER GENERAL*/
+    .newsletterContenedor {
+        display: flex;
+        height: 180px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .newsletter {
+        height: 150px;
+        margin-top: 70px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+
+    .newsletter h1 {
+        font-size: 25px;
+    }
+
+    .newsletter .email {
+        height: 35px;
+        width: 68%;
+        margin: 30px 20px;
+        text-align: center;
+        font-size: 1.0em;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .newsletter .button {
+        height: 30px;
+        width: 12%;
+        margin: 0px -10px;
+        font-weight: bold;
+        background:  rgb(27, 24, 24);
+        color: white;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .texto-menu2 h3 {
+        font-size: 24px;
+    }
+
+    .containerInfo {
+        display: none;
+    }
+
+    /*PRODUCTOS */
+
+    .menuProductos{
+        height: auto;
+    }
+
+    .fondoResponsive{
+        @include fondoResponsive;
+        height: 20vh;
+        justify-content:space-between;
+        padding-right: 260%;
+    }
+
+    .fondoResponsive2{
+        @include fondoResponsive;
+        height: 20vh;
+    }
+
+    /* NOSOTROS*/
+
+    .menuNosotros{
+        height: auto;
+    }
+
+    .textoMenuContainerNosotros{
+        flex-direction: column;
+        height: 920px;
+        gap: 20px;
+        justify-content: center;
+     }
+     
+     .texto-menuNosotros{
+        justify-content: start;
+         height: 400px;
+         width: 85%;
+         gap: 25px;
+     }
+
+    .containerInfoNosotros {
+        display: flex;
+        height: 900px;
+    }
+
+    .containerInfoInsideNosotros {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .containerInfoInsideNosotros .info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* CONTACTO */
+
+    .containerContact {
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .tituloContact {
+        height: 20px;
+        width: 450px;
+    }
+
+    .inputContact {
+        height: 35px;
+        width: 300px;
+    }
+
+    .inputContact input {
+        width: 300px;
+        height: 35px;
+    }
+
+    .textAreaContact {
+        width: 300px;
+    }
+
+    .textAreaContact textarea {
+        width: 300px;
+    }
+
+    .buttonsForm{
+        width: 300px;
+    }
+}

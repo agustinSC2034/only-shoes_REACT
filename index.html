@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ROPA, INDUMENTARIA, NIKE, ADIDAS, PUMA, CONJUNTOS, DEPORTES, ONLINE, ENVIOS">
+    <meta name="description"
+        content="En Deporstore encontraras lo ultimo de los conjuntos deportivos de tus marcas favoritas. Todo lo que necesitas, en un solo lugar">
+    <link rel="shortcut icon" href="./img/otras/ds.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600&family=Lato&family=Montserrat:wght@500;900&family=Open+Sans&family=Shizuru&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="stock.json">
+    <title>Only Shoes | Todo en un solo lugar</title>
+</head>
+
+<body>
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navMIO">
+        <div class="container-fluid">
+            <a class="navbar-brand logoMio" href="#">DeporStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navLiMio" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navUL">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            CATEGORIAS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="pages/categorias/hombres.html">Hombres</a></li>
+                            <li><a class="dropdown-item" href="pages/categorias/mujeres.html">Mujeres</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            MARCAS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="pages/marcas/nike.html">Nike</a></li>
+                            <li><a class="dropdown-item" href="pages/marcas/puma.html">Puma</a></li>
+                            <li><a class="dropdown-item" href="pages/marcas/adidas.html">Adidas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/carrito.html">CARRITO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--CARROUSEL FONDO INDEX-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active botoncito" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/otras/todas.jpg" class="d-block w-100" alt="Imagen de zapatillas">
+                <div class="carousel-caption">
+                    <h1 class="tituloEspecial">DeporStore</h1>
+                    <h5 class="subtituloEspecial">Tu indumentaria en un solo lugar</h5>
+                    <div class="botonesHomeEspeciales">
+                        <a href="#ofertas">
+                            <input type="button" value="OFERTAS">
+                        </a>
+                        <a href="pages/contacto.html">
+                            <input type="button" value="CONTACTANOS">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon colorBotoncito" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon colorBotoncito" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--MENU INDEX-->
+    <!--CONTAINER CON TITULO OFERTAS-->
+    <div class="menuIndex">
+        <div class="textoMenuContainer">
+            <div class="texto-menu">
+                <a name="ofertas">
+                    <h3>Ofertas de la semana!</h3>
+                </a>
+            </div>
+        </div>
+
+        <!--CONTAINER CON TARJETAS PRODUCTOS-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center listaDeCards">
+                </div>
+            </div>
+        </section>
+
+        <!--INICIO CARRITO BORRAR -->
+        <section id="shopping-cart" class="shopping-cart">
+            <div class="container carritoClass" id="">
+                <h1 class="text-left">CARRITO</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="shopping-cart-header">
+                            <h6>Producto</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="shopping-cart-header">
+                            <h6 class="text-truncate">Precio</h6>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ? INICIO SHOPPING CART ITEMS -->
+                <div id="listaItems" class="row shopping-cart-items shoppingCartItemsContainer">
+                </div>
+                <!-- ? FINAL SHOPPING CART ITEMS -->
+
+                <!-- INICIO TOTAL -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="shopping-cart-total d-flex align-items-center">
+                            <p class="mb-0">Total</p>
+                            <p class="ml-4 mb-0 shoppingCartTotal">: 0.00$</p>
+                            <div class="container-flex">
+                                <button id="botonCompra" class="btn btn-primary comprarButton" type="button"
+                                    data-toggle="modal" data-target="#comprarModal">Comprar</button>
+                                <button id="botonVaciar" class="btn btn-primary vaciarButtonCarro" type="button"
+                                    data-toggle="modal" data-target="#comprarModal">Vaciar carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FINAL CARRITO -->
+
+        <!--Barra horizontal con info-->
+        <div class="enviosContainer">
+            <h3>Envios y devoluciones <span>GRATIS!</span></h3>
+        </div>
+
+
+        <!-- Medios de pago-->
+        <div class="sliderContenedor">
+            <div class="textoSlider">
+                <h3>Todos los medios de pago disponibles</h3>
+            </div>
+        </div>
+        <div class="py-5">
+            <div class="container containerPagosYoPadre">
+                <div class="row align-items-center containerPagosYO">
+                    <div class="col-md-2 col-sm-6 sm-6 col-xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logosnuevos/logos_visa.062f66a8.svg" alt="Tarjeta" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 sm-6 md-2">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logosnuevos/logos_master.60fdbcf5.svg" alt="Tarjeta" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-6 xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logosnuevos/logos_amex.ed4e7028.svg" alt="Tarjeta" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-6 xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logosnuevos/logos_maestro.56f97b0e.svg" alt="Tarjeta" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-6 xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logosnuevos/logos_naranja.6f60602d.svg" alt="Tarjeta" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-6 xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logosnuevos/bna-mas_1.svg" alt="Tarjeta" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--BARRA HORIZONTAL CON INFO2 -->
+        <div class="enviosContainer">
+            <h3>3 cuotas <span>Sin interes</span> en todo el sitio </h3>
+        </div>
+
+        <!-- Promos bancarias-->
+        <div class="sliderContenedor">
+            <div class="textoSlider">
+                <h3>Aprovechá las promos con tu banco</h3>
+            </div>
+        </div>
+
+        <!-- Promos bancarias -->
+        <div class="py-5">
+            <div class="container containerPagosYoPadre">
+                <div class="row align-items-center containerPagosYO">
+                    <div class="col-md-2 col-sm-6 sm-6 md-2">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="img/logos bancos/1.png"
+                                alt="Logo de banco" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 sm-6 md-2">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="img/logos bancos/8.png"
+                                alt="Logo de banco" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-6 xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="img/logos bancos/7_0.png"
+                                alt="Logo de banco" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-6 xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logos bancos/logos-frances-2.png" alt="Logo de banco" /></a>
+
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-6 xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logos bancos/logos-santander-2.png" alt="Logo de banco" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-6 xs-6">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                                src="img/logos bancos/banco-macro.png" alt="Logo de banco" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--FOOTER con Newsletter-->
+    <footer>
+        <div class="footerText">
+            <!--CONTAINER NEWSLETTER-->
+            <div class="newsletterContenedor">
+                <div class="newsletter">
+                    <h1>Suscribite para recibir ofertas increíbles en tu email</h1>
+                    <div class="mb-3">
+                        <div class="inputContactNewsletter">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nombre@gmail.com">
+                            <button type="button" class="btn btn-outline-primary">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="textoFooter">
+                <p>Copyrights AgustinSC</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--SCRIPT JS-->
+    <script src="./js/app.js" type="module"></script>
+    <script src="./js/ventana.js" type="module"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>

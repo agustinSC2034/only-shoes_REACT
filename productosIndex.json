@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Zapatillas Nike React Infinity Run Flyknit 2",
+    "precio": 20000,
+    "img": "./img/zapatillas/ZapatillasNikeReactInfinityRunFlyknit2.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Zoom Vapor Pro",
+    "precio": 34000,
+    "img": "./img/zapatillas/ZapatillasNikeZoomVaporPro.jpg"
+  },
+  {
+    "nombre": "Camiseta Broklin Nets",
+    "precio": 9000,
+    "img": "./img/camisetasNBA/broklin.png"
+  },
+  {
+    "nombre": "Campera Jordan",
+    "precio": 33000,
+    "img": "./img/nike/Campera_Jordan.jpg"
+  },
+  {
+    "nombre": "Ojotas Nike Victori One",
+    "precio": 8000,
+    "img": "./img/nike/Ojotas_Nike_Victori_One.jpg"
+  },
+  {
+    "nombre": "Chomba adidas Pique Polo",
+    "precio": 14000,
+    "img": "./img/adidas/Chomba_adidas_Pique_Polo.jpg"
+  },
+  {
+    "nombre": "Buzo adidas Essential",
+    "precio": 12000,
+    "img": "./img/adidas/Buzo_adidas_Essential.jpg"
+  },
+  {
+    "nombre": "Buzo Puma Downtown Crew",
+    "precio": 15000,
+    "img": "./img/puma/Buzo_Puma_Downtown_Crew.jpg"
+  }
+]

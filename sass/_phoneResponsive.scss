@@ -1,0 +1,232 @@
+@import "variables";
+
+/*MEDIA: CELULAR GRANDE*/
+@media (min-width: 590px) and (max-width: 768px) {
+
+    /* NAV GENERAL*/
+    .carousel-inner img {
+        height: 50vh;
+     }
+
+    .carousel-caption {
+        position: absolute; 
+        right: 15%;
+        top: 90px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+      }
+
+    .carousel-caption h1{
+        font-size: 60px;
+      }
+
+    .carousel-caption h5{
+        display: none;
+      }
+
+    .menuIndex {
+        width: 100%;
+        height: auto;
+        justify-content: start;
+        display: flex;
+      }
+    
+    .textoMenuContainer {
+        display: flex;
+        height: 80px;
+    }
+    
+    .texto-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 750px;
+        letter-spacing: 1px;
+    }
+    
+    .texto-menu h3{
+        font-size: 28px;
+        color: #333;
+        animation: bounceIn;
+        animation-duration: 1s;
+        letter-spacing: 1px;
+    }
+    .texto-menu p{
+        font-size: 18px;
+        margin-top: 25px;
+        color: #333;
+        letter-spacing: 1px;
+    }
+
+     .titulo h3{
+        font-size: 38px;
+    }
+    
+    .texto-menu h3{
+        font-size: 22px;
+    }
+    
+    .texto-menu {
+        width: 85%;
+    }
+    
+    .texto-menu h3{
+        font-size: 26px;
+    }
+    .texto-menu p{
+        font-size: 18px;
+    }
+
+
+    /* NEWSLETTER GENERAL*/
+    .newsletterContenedor {
+        display: flex;
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .newsletter {
+        height: 150px;
+        margin-top: 70px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .newsletter h1 {
+        font-size: 25px;
+    }
+    
+    .newsletter .email {
+        height: 35px;
+        width: 68%;
+        margin: 30px 20px;
+        text-align: center;
+        font-size: 1.0em;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+    
+    .newsletter .button {
+        height: 30px;
+        width: 12%;
+        margin: 0px -10px;
+        font-weight: bold;
+        background:  rgb(27, 24, 24);
+        color: white;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+    }
+    
+    .texto-menu2 h3 {
+        font-size: 24px;
+    }
+
+    .containerInfo {
+        display: none;
+    }
+
+
+
+    /* PRODUCTOS */
+    .menuProductos{
+        height: auto;
+    }
+
+    .fondoResponsive{
+        @include fondoResponsive;
+        height: 25vh;
+        justify-content:space-between;
+        padding-right: 210%;
+    }
+
+    .fondoResponsive2{
+        @include fondoResponsive;
+        height: 25vh;
+        justify-content:space-between;
+    }
+    
+    /* NOSOTROS*/
+    .menuNosotros{
+        height: auto;
+    }
+
+    .textoMenuContainerNosotros{
+        flex-direction: column;
+        height: 700px;
+        gap: 10px;
+        justify-content: center;
+     }
+     
+     .texto-menuNosotros{
+         padding-top: 150px;
+        justify-content: start;
+         height: 300px;
+         width: 85%;
+         gap: 25px;
+         padding-top: 50px;
+     }
+
+     .texto-menuNosotros h3{
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .containerInfoNosotros {
+        display: flex;
+        height: 700px;
+    }
+    
+    .containerInfoInsideNosotros {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .containerInfoInsideNosotros .info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* CONTACTO */
+    .containerContact {
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .tituloContact {
+        height: 20px;
+        width: 450px;
+    }
+    
+    .inputContact {
+        height: 35px;
+        width: 450px;
+    }
+    
+    .inputContact input {
+        width: 450px;
+        height: 35px;
+    }
+    
+    .textAreaContact {
+        width: 450px;
+    }
+    
+    .textAreaContact textarea {
+        width: 450px;
+    }
+}

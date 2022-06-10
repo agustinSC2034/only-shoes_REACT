@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Camiseta Broklin Nets",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/broklin.png"
+  },
+  {
+    "nombre": "Camiseta Broklin Nets suplente",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/brookllin.png"
+  },
+  {
+    "nombre": "Camiseta Chicago Bulls",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/BULLS.png"
+  },
+  {
+    "nombre": "Camiseta Boston Celtics",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/celticsBlanca.png"
+  },
+  {
+    "nombre": "Camiseta Boston celtics",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/celticsVerde.png"
+  },
+  {
+    "nombre": "Camiseta Los Angeles Clippers",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/clipers.png"
+  },
+  {
+    "nombre": "Camiseta Los Angeles Clippers suplente",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/clipers2.png"
+  },
+  {
+    "nombre": "Camiseta Denver Nuggets",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/denver.png"
+  },
+  {
+    "nombre": "Camiseta Golden State Warriors",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/golden.png"
+  },
+  {
+    "nombre": "Camiseta Golden State Warriors suplente",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/goldenAzul.png"
+  },
+  {
+    "nombre": "Camiseta Los Angeles Lakers",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/lakers.png"
+  },
+  {
+    "nombre": "Camiseta Phoenix Suns",
+    "precio": 9000,
+    "img": "../.././img/camisetasNBA/phoenix.png"
+  }
+]

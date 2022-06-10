@@ -1,0 +1,166 @@
+@import "variables";
+
+/* NOSOTROS */
+.fondoNosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    height: 40vh;
+}
+
+.menuNosotros {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.textoMenuContainerNosotros{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 400px;
+   gap: 40px;
+}
+
+.texto-menuNosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    text-align: left;
+    padding-top: 10px;
+    height: 300px;
+    width: 43%;
+    gap: 25px;
+    letter-spacing: 1px;
+}
+
+.texto-menuNosotros h3{
+    justify-content: left;
+    font-weight: bold;
+}
+
+.logoNosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/otras/ds.png);
+    background-blend-mode: soft-light;    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 150px;
+}
+
+.containerInfoNosotros {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    background-color: rgb(35, 35, 35);
+}
+
+.containerInfoInsideNosotros {
+    display: flex;
+    flex-direction: row;
+    width: 89%;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+
+.containerInfoInsideNosotros .info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.containerInfoInsideNosotros .info h3{
+    font-weight: bold;
+}
+.containerInfoInsideNosotros .info h3 span{
+    color: map-get($colores, AzulBotones);
+}
+
+.sliderContenedor{
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.textoSlider h3 {
+    font-weight: bold;
+}
+
+.imagenesMarcas {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesMarcas .img1{
+    width: 28%;
+    height: auto;
+}
+
+.redesSocialesContainer{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+}
+
+.redesSocialesContainer .containerSocial {
+    display: none;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    
+}
+
+.redesSocialesContainerInside{
+    display: none;
+    height: 190px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.logoSocial{
+    display: none;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoSocial img{
+    display: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+}
+

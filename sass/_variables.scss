@@ -1,0 +1,55 @@
+/*VARIABLES*/
+$blanco: white;
+$negroEspecial: rgb(25, 24, 24);
+$azulEspecial: rgb(42, 158, 230);
+$fuente: 'Karla', sans-serif;
+
+// MAP
+$colores: (
+    "primary": white,
+    "secondary":  rgb(25, 24, 24),
+    "AzulBotones": rgb(42, 158, 230),
+);
+
+// MIXIN
+@mixin fondo {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(45, 45, 45, 0.7);
+    background-blend-mode: soft-light;    
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ @mixin fondoResponsive{
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: soft-light;    
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+ }
+
+ @mixin btnHome {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    letter-spacing: 1px;
+ }
+
+ @mixin inputHome {
+    height: 50px;
+    width: 170px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+ }

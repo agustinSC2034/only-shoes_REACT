@@ -1,0 +1,210 @@
+@import "variables";
+
+/* Media queries TABLET*/
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .carousel-inner img {
+        height: 70vh;
+    }
+
+    .menuIndex{
+        height: auto;
+        display: flex;
+    }
+
+    .textoMenuContainer {
+        height: 20px;
+        justify-content: start;
+        display: none;
+    }
+
+    .titulo h3{
+        font-size: 38px;
+    }
+        
+    .texto-menu h3{
+        font-size: 22px;
+    }
+        
+    .texto-menu {
+        width: 85%;
+    }
+        
+    .texto-menu h3{
+        font-size: 26px;
+    }
+    .texto-menu p{
+        font-size: 18px;
+    }
+
+    /* NEWSLETTER GENERAL*/
+
+    .newsletterContenedor {
+        display: flex;
+        height: 100px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+        
+    .newsletter {
+        height: 110px;
+        margin-top: 70px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+        
+    .newsletter h1 {
+        font-size: 25px;
+    }
+        
+    .newsletter .email {
+        height: 35px;
+        width: 68%;
+        margin: 30px 20px;
+        text-align: center;
+        font-size: 1.0em;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+        
+    .newsletter .button {
+        height: 30px;
+        width: 12%;
+        margin: 0px -10px;
+        font-weight: bold;
+        background:  rgb(27, 24, 24);
+        color: white;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+    }
+        
+    .texto-menu2 h3 {
+        font-size: 24px;
+    }
+
+    .containerInfo {
+        background-color: rgb(44, 44, 44);
+        color: white;
+        height: 350px;
+    }
+
+
+    /* PRODCUTOS*/
+
+    .menuProductos{
+        height: auto;
+    }
+
+    .fondoResponsive{
+        @include fondoResponsive;
+        height: 23vh;
+        justify-content:space-between;
+        padding-right: 110%;
+    }
+
+    .fondoResponsive2{
+        @include fondoResponsive;
+        height: 23vh;
+        justify-content:space-between;
+        padding-right: 100%;
+    }
+
+    /* CONTAINER TEXTO NOSOTROS*/
+
+    .menuNosotros {
+        height: auto;
+    }
+    
+    .textoMenuContainerNosotros{
+        height: 600px;
+        gap: 35px;
+     }
+     
+     .texto-menuNosotros{
+         padding-top: 15px;
+         height: 450px;
+         gap: 25px;
+     }
+
+    .containerInfoNosotros {
+        display: flex;
+        height: 700px;
+    }
+    
+    .containerInfoInsideNosotros {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        
+    }
+    
+    .containerInfoInsideNosotros .info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    
+    /* CONTACTO */
+
+    .menuContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 50px;
+    }
+    .textoContacto h3{
+        font-size: 25px;        
+    }
+    
+    .containerContact {
+        height: auto;
+        width: 100%;
+    }
+    
+    .tituloContact {
+        height: 20px;
+        width: 450px;
+    }
+    
+    .inputContact {
+        height: 35px;
+        width: 450px;
+    }
+    
+    .inputContact input {
+        width: 450px;
+        height: 35px;
+    }
+    
+    .textAreaContact {
+        width: 450px;
+    }
+    
+    .textAreaContact textarea {
+        width: 450px;
+    }
+    
+    .buttonsForm{
+        gap: 3%;
+        height: 70px;
+        margin-top: 70px;
+    }
+    .buttonsForm .buttonForm{
+        height: 40px;
+        width: 180px;
+    }
+    footer{
+        height: 200px;
+    }
+
+    /* CARRITO */
+    
+}

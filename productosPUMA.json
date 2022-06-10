@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Buzo Puma As Training",
+    "precio": 13000,
+    "img": "../.././img/puma/Buzo_Puma_As_Training.jpg"
+  },
+  {
+    "nombre": "Buzo Puma Downtown Crew",
+    "precio": 15000,
+    "img": "../.././img/puma/Buzo_Puma_Downtown_Crew.jpg"
+  },
+  {
+    "nombre": "Buzo Puma Downtown",
+    "precio": 8000,
+    "img": "../.././img/puma/Buzo_Puma_Downtown.jpg"
+  },
+  {
+    "nombre": "Buzo Puma Essentials",
+    "precio": 9000,
+    "img": "../.././img/puma/Buzo_Puma_Essentials.jpg"
+  },
+  {
+    "nombre": "Buzo Puma Ferrari",
+    "precio": 10000,
+    "img": "../.././img/puma/Buzo_Puma_Ferrari.jpg"
+  },
+  {
+    "nombre": "Buzo Puma Manchester City",
+    "precio": 15000,
+    "img": "../.././img/puma/Buzo_Puma_Manchester_City.jpg"
+  },
+  {
+    "nombre": "Buzo Puma Rebel",
+    "precio": 15000,
+    "img": "../.././img/puma/Buzo_Puma_Rebel.jpg"
+  },
+  {
+    "nombre": "Buzo Puma Train PWRFleece",
+    "precio": 13000,
+    "img": "../.././img/puma/Buzo_Puma_Train_PWRFleece.jpg"
+  },
+  {
+    "nombre": "Campera Puma As Track",
+    "precio": 12000,
+    "img": "../.././img/puma/Campera_Puma_As_Track.jpg"
+  },
+  {
+    "nombre": "Campera Puma BMW",
+    "precio": 11000,
+    "img": "../.././img/puma/Campera_Puma_BMW.jpg"
+  },
+  {
+    "nombre": "Campera Puma Gloaming",
+    "precio": 10000,
+    "img": "../.././img/puma/Campera_Puma_Gloaming.jpg"
+  },
+  {
+    "nombre": "Campera Puma Power",
+    "precio": 9000,
+    "img": "../.././img/puma/Campera_Puma_Power.jpg"
+  },
+  {
+    "nombre": "Pantalón Puma Conic",
+    "precio": 13000,
+    "img": "../.././img/puma/Pantalón_Puma_Conic.jpg"
+  },
+  {
+    "nombre": "Remera Puma Classics Logo",
+    "precio": 14000,
+    "img": "../.././img/puma/Remera_Puma_Classics_Logo.jpg"
+  },
+  {
+    "nombre": "Remera Puma Classics",
+    "precio": 11000,
+    "img": "../.././img/puma/Remera_Puma_Classics.jpg"
+  },
+  {
+    "nombre": "Remera Puma Run",
+    "precio": 12000,
+    "img": "../.././img/puma/Remera_Puma_Run.jpg"
+  }
+]

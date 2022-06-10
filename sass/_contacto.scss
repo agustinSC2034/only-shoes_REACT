@@ -1,0 +1,100 @@
+@import "variables";
+
+/* CONTACTO */
+.menuContacto{
+    height: auto;
+    width: 100%;
+}
+
+.textoContacto{      
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.textoContacto h3{
+    font-size: 25px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 700px;
+    width: 70%;
+    animation: fadeInUp;
+    animation-duration: 1.5s;
+    gap: 15px;
+}
+
+.tituloContact {
+    height: 20px;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.inputContact {
+    height: 35px;
+    width: 500px;
+    margin-bottom: 3%;
+}
+
+.inputContact input {
+    width: 500px;
+    height: 35px;
+    text-align: start;
+    font-size: 1.0em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    letter-spacing: 1px;
+}
+
+.inputContact label {
+    letter-spacing: 1px;
+}
+
+.textAreaContact {
+    width: 500px;
+}
+
+.textAreaContact textarea {
+    width: 500px;
+    letter-spacing: 1px;
+}
+
+.buttonsForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.buttonsForm button{
+    height: 40px;
+    width: 230px;
+    letter-spacing: 1px;
+}
+
+.buttonsForm button:hover{
+    background-color: $azulEspecial;
+}

@@ -1,0 +1,35 @@
+@import "variables";
+
+/* CARRITO */
+.menuCarrito{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.carritoClass{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.comprarButton{
+    background-color: $azulEspecial;
+}
+.comprarButton:hover{
+    background-color: $negroEspecial;
+}
+.vaciarButton{
+    background-color: $azulEspecial;
+}
+.vaciarButton:hover{
+    background-color: $negroEspecial;
+}
+.shopingCarrito{
+    display: flex;
+}
+.vaciarButtonCarro:hover {
+    transform: scale(1.1);
+}
+.comprarButton:hover {
+    transform: scale(1.1);
+}

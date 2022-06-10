@@ -1,0 +1,2051 @@
+@charset "UTF-8";
+/*VARIABLES*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+/* Paginas */
+/*VARIABLES*/
+/* HOME: Sección NAV + FONDO */
+.navMIO {
+  letter-spacing: 1px;
+}
+
+.imgCarouselMIO {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navUL {
+  gap: 10px;
+}
+
+.carousel-inner img {
+  height: 93.3vh;
+  width: 100%;
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  text-align: center;
+  height: 60%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+}
+
+.carousel-caption h1 {
+  -webkit-animation: fadeInUp;
+          animation: fadeInUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  font-size: 60px;
+}
+
+.carousel-caption .tituloEspecial {
+  color: black;
+}
+
+.carousel-caption .subtituloEspecial {
+  color: black;
+}
+
+.carousel-caption h5 {
+  -webkit-animation: fadeInUp;
+          animation: fadeInUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  font-size: 25px;
+}
+
+.botonesHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  padding-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  letter-spacing: 1px;
+}
+
+.botonesHome input {
+  height: 50px;
+  width: 170px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.botonesHome input:hover {
+  background: #2a9ee6;
+  color: white;
+}
+
+.botonesHomeEspeciales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  padding-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  letter-spacing: 1px;
+}
+
+.botonesHomeEspeciales input {
+  height: 50px;
+  width: 170px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: #191818;
+  color: white;
+}
+
+.botonesHomeEspeciales input:hover {
+  background: #2a9ee6;
+  background: #2a9ee6;
+}
+
+/* HOME: Seccion de ofertas*/
+.menuIndex {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.textoMenuContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 160px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: 1px;
+}
+
+.texto-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 750px;
+  letter-spacing: 1px;
+}
+
+.texto-menu h3 {
+  font-size: 28px;
+  color: #333;
+  -webkit-animation: bounceIn;
+          animation: bounceIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  letter-spacing: 1px;
+}
+
+.texto-menu p {
+  font-size: 18px;
+  margin-top: 25px;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+/* HOME: Seccion de productos: Tarjetas de productos */
+.tarjetaMIA:hover, .tarjetaMIA--OFERT {
+  background: white;
+  -webkit-box-shadow: 0 0 10px #111111, 0 0 40px;
+          box-shadow: 0 0 10px #111111, 0 0 40px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.tarjetaMIA--OFERT {
+  color: #2a9ee6;
+}
+
+.claseBotonTarjeta button {
+  border-color: black;
+  color: black;
+}
+
+.claseBotonTarjeta button:hover {
+  color: white;
+}
+
+.botonesJS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  margin-bottom: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.addToCart:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/* HOME: Seccion de productos: Barras horizontales */
+.enviosContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 115px;
+  background: #191818;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.enviosContainer h3 {
+  letter-spacing: 1px;
+  color: white;
+}
+
+.enviosContainer h3 span {
+  font-weight: bold;
+  color: #2a9ee6;
+}
+
+/* /* HOME: Titulo de slider */
+.sliderContenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 110px;
+  letter-spacing: 1px;
+}
+
+.textoSlider h3 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+/* Footer general */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #232323;
+  height: 40vh;
+  width: 100%;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footerText {
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* HOME: Footer: Newsletter */
+.newsletterContenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+  background-color: #232323;
+}
+
+.newsletter {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.newsletter h1 {
+  font-size: 25px;
+}
+
+.inputContactNewsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+.inputContactNewsletter button {
+  background: white;
+  color: black;
+  border-color: black;
+}
+
+.newsletter .email {
+  height: 35px;
+  width: 68%;
+  margin: 30px 20px;
+  text-align: center;
+  font-size: 1em;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  letter-spacing: 1px;
+}
+
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+.shopping-cart {
+  display: none;
+}
+
+/*VARIABLES*/
+/*CATEGORIAS Y MARCAS: Fondo banner*/
+.fondoNba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/otportadasras/bannerBasquet.jpg);
+}
+
+.fondoFutbol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/bannerFutbol4.jpg);
+}
+
+.fondoZapatillas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/bannerCalzado2.jpg);
+}
+
+.fondoNike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/nike.jpg);
+}
+
+.fondoPuma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/puma.jpg);
+}
+
+.fondoAdidas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/adidas.jpg);
+}
+
+.fondoAsics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/asics.jpg);
+}
+
+.fondoConverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/converse.jpg);
+}
+
+.fondoFila {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/fila.jpg);
+}
+
+.fondoJohnFoos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/JohnFoos.jpg);
+}
+
+.fondoKappa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/kappa.jpg);
+}
+
+.fondoLacoste {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/lacoste.jpg);
+}
+
+.fondoNewBalance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/newBalance.jpg);
+}
+
+.fondoPony {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/pony.jpg);
+}
+
+.fondoReebok {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/reebok.jpg);
+}
+
+.fondoTopper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/topper.jpg);
+}
+
+.fondoUnderArmour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/underArmour.jpg);
+}
+
+/*CATEGORIAS Y MARCAS: Menu de productos*/
+.menuProductos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.textoMenuContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+}
+
+.texto-menu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 70%;
+  letter-spacing: 1px;
+}
+
+.texto-menu2 h3 {
+  font-size: 28px;
+  color: #333;
+  -webkit-animation: bounceIn;
+          animation: bounceIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.containerInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerInfoInside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.containerInfo .info h3 {
+  font-size: 22px;
+  padding-bottom: 5%;
+  letter-spacing: 1px;
+}
+
+.containerInfo .info p {
+  letter-spacing: 0.5px;
+}
+
+.shopping-cart {
+  display: none;
+}
+
+.listaDeCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*VARIABLES*/
+/* NOSOTROS */
+.fondoNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  height: 40vh;
+}
+
+.menuNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.textoMenuContainerNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 400px;
+  gap: 40px;
+}
+
+.texto-menuNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+  padding-top: 10px;
+  height: 300px;
+  width: 43%;
+  gap: 25px;
+  letter-spacing: 1px;
+}
+
+.texto-menuNosotros h3 {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-weight: bold;
+}
+
+.logoNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../img/otras/ds.png);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 190px;
+  height: 150px;
+}
+
+.containerInfoNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+  background-color: #232323;
+}
+
+.containerInfoInsideNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 89%;
+  height: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  color: white;
+}
+
+.containerInfoInsideNosotros .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.containerInfoInsideNosotros .info h3 {
+  font-weight: bold;
+}
+
+.containerInfoInsideNosotros .info h3 span {
+  color: #2a9ee6;
+}
+
+.sliderContenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+}
+
+.textoSlider h3 {
+  font-weight: bold;
+}
+
+.imagenesMarcas {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imagenesMarcas .img1 {
+  width: 28%;
+  height: auto;
+}
+
+.redesSocialesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 350px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSocialesContainer .containerSocial {
+  display: none;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.redesSocialesContainerInside {
+  display: none;
+  height: 190px;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 90px;
+}
+
+.logoSocial {
+  display: none;
+  width: 200px;
+  height: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logoSocial img {
+  display: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 120px;
+  width: 120px;
+}
+
+/*VARIABLES*/
+/* CONTACTO */
+.menuContacto {
+  height: auto;
+  width: 100%;
+}
+
+.textoContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.textoContacto h3 {
+  font-size: 25px;
+  color: #333;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 700px;
+  width: 70%;
+  -webkit-animation: fadeInUp;
+          animation: fadeInUp;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  gap: 15px;
+}
+
+.tituloContact {
+  height: 20px;
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.inputContact {
+  height: 35px;
+  width: 500px;
+  margin-bottom: 3%;
+}
+
+.inputContact input {
+  width: 500px;
+  height: 35px;
+  text-align: start;
+  font-size: 1.0em;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  letter-spacing: 1px;
+}
+
+.inputContact label {
+  letter-spacing: 1px;
+}
+
+.textAreaContact {
+  width: 500px;
+}
+
+.textAreaContact textarea {
+  width: 500px;
+  letter-spacing: 1px;
+}
+
+.buttonsForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1%;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.buttonsForm button {
+  height: 40px;
+  width: 230px;
+  letter-spacing: 1px;
+}
+
+.buttonsForm button:hover {
+  background-color: #2a9ee6;
+}
+
+/*VARIABLES*/
+/* CARRITO */
+.menuCarrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+}
+
+.carritoClass {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.comprarButton {
+  background-color: #2a9ee6;
+}
+
+.comprarButton:hover {
+  background-color: #191818;
+}
+
+.vaciarButton {
+  background-color: #2a9ee6;
+}
+
+.vaciarButton:hover {
+  background-color: #191818;
+}
+
+.shopingCarrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vaciarButtonCarro:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.comprarButton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/* Responsive TABLET*/
+/*VARIABLES*/
+/* Media queries TABLET*/
+@media (min-width: 768px) and (max-width: 1200px) {
+  .carousel-inner img {
+    height: 70vh;
+  }
+  .menuIndex {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .textoMenuContainer {
+    height: 20px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    display: none;
+  }
+  .titulo h3 {
+    font-size: 38px;
+  }
+  .texto-menu h3 {
+    font-size: 22px;
+  }
+  .texto-menu {
+    width: 85%;
+  }
+  .texto-menu h3 {
+    font-size: 26px;
+  }
+  .texto-menu p {
+    font-size: 18px;
+  }
+  /* NEWSLETTER GENERAL*/
+  .newsletterContenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .newsletter {
+    height: 110px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .newsletter h1 {
+    font-size: 25px;
+  }
+  .newsletter .email {
+    height: 35px;
+    width: 68%;
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 1.0em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  .newsletter .button {
+    height: 30px;
+    width: 12%;
+    margin: 0px -10px;
+    font-weight: bold;
+    background: #1b1818;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+  .texto-menu2 h3 {
+    font-size: 24px;
+  }
+  .containerInfo {
+    background-color: #2c2c2c;
+    color: white;
+    height: 350px;
+  }
+  /* PRODCUTOS*/
+  .menuProductos {
+    height: auto;
+  }
+  .fondoResponsive {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 110%;
+  }
+  .fondoResponsive2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 100%;
+  }
+  /* CONTAINER TEXTO NOSOTROS*/
+  .menuNosotros {
+    height: auto;
+  }
+  .textoMenuContainerNosotros {
+    height: 600px;
+    gap: 35px;
+  }
+  .texto-menuNosotros {
+    padding-top: 15px;
+    height: 450px;
+    gap: 25px;
+  }
+  .containerInfoNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 700px;
+  }
+  .containerInfoInsideNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 60px;
+  }
+  .containerInfoInsideNosotros .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+  }
+  /* CONTACTO */
+  .menuContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: auto;
+    gap: 50px;
+  }
+  .textoContacto h3 {
+    font-size: 25px;
+  }
+  .containerContact {
+    height: auto;
+    width: 100%;
+  }
+  .tituloContact {
+    height: 20px;
+    width: 450px;
+  }
+  .inputContact {
+    height: 35px;
+    width: 450px;
+  }
+  .inputContact input {
+    width: 450px;
+    height: 35px;
+  }
+  .textAreaContact {
+    width: 450px;
+  }
+  .textAreaContact textarea {
+    width: 450px;
+  }
+  .buttonsForm {
+    gap: 3%;
+    height: 70px;
+    margin-top: 70px;
+  }
+  .buttonsForm .buttonForm {
+    height: 40px;
+    width: 180px;
+  }
+  footer {
+    height: 200px;
+  }
+  /* CARRITO */
+}
+
+/* Responsive phone grande*/
+/*VARIABLES*/
+/*MEDIA: CELULAR GRANDE*/
+@media (min-width: 590px) and (max-width: 768px) {
+  /* NAV GENERAL*/
+  .carousel-inner img {
+    height: 50vh;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 90px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  .carousel-caption h1 {
+    font-size: 60px;
+  }
+  .carousel-caption h5 {
+    display: none;
+  }
+  .menuIndex {
+    width: 100%;
+    height: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .textoMenuContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px;
+  }
+  .texto-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 750px;
+    letter-spacing: 1px;
+  }
+  .texto-menu h3 {
+    font-size: 28px;
+    color: #333;
+    -webkit-animation: bounceIn;
+            animation: bounceIn;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    letter-spacing: 1px;
+  }
+  .texto-menu p {
+    font-size: 18px;
+    margin-top: 25px;
+    color: #333;
+    letter-spacing: 1px;
+  }
+  .titulo h3 {
+    font-size: 38px;
+  }
+  .texto-menu h3 {
+    font-size: 22px;
+  }
+  .texto-menu {
+    width: 85%;
+  }
+  .texto-menu h3 {
+    font-size: 26px;
+  }
+  .texto-menu p {
+    font-size: 18px;
+  }
+  /* NEWSLETTER GENERAL*/
+  .newsletterContenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .newsletter {
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .newsletter h1 {
+    font-size: 25px;
+  }
+  .newsletter .email {
+    height: 35px;
+    width: 68%;
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 1.0em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  .newsletter .button {
+    height: 30px;
+    width: 12%;
+    margin: 0px -10px;
+    font-weight: bold;
+    background: #1b1818;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+  .texto-menu2 h3 {
+    font-size: 24px;
+  }
+  .containerInfo {
+    display: none;
+  }
+  /* PRODUCTOS */
+  .menuProductos {
+    height: auto;
+  }
+  .fondoResponsive {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 210%;
+  }
+  .fondoResponsive2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  /* NOSOTROS*/
+  .menuNosotros {
+    height: auto;
+  }
+  .textoMenuContainerNosotros {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 700px;
+    gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .texto-menuNosotros {
+    padding-top: 150px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    height: 300px;
+    width: 85%;
+    gap: 25px;
+    padding-top: 50px;
+  }
+  .texto-menuNosotros h3 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: bold;
+  }
+  .containerInfoNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 700px;
+  }
+  .containerInfoInsideNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 60px;
+  }
+  .containerInfoInsideNosotros .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+  }
+  /* CONTACTO */
+  .containerContact {
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .tituloContact {
+    height: 20px;
+    width: 450px;
+  }
+  .inputContact {
+    height: 35px;
+    width: 450px;
+  }
+  .inputContact input {
+    width: 450px;
+    height: 35px;
+  }
+  .textAreaContact {
+    width: 450px;
+  }
+  .textAreaContact textarea {
+    width: 450px;
+  }
+}
+
+/* Responsive phone chico*/
+/*VARIABLES*/
+@media (min-width: 0px) and (max-width: 600px) {
+  /* NAV GENERAL*/
+  .carousel-inner img {
+    height: 50vh;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 90px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  .carousel-caption h1 {
+    font-size: 50px;
+  }
+  .carousel-caption h5 {
+    display: none;
+  }
+  .botonesHome a input {
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+  }
+  .botonesHomeEspeciales a input {
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+  }
+  /* MENU INDEX*/
+  .menuIndex {
+    width: 100%;
+    height: auto;
+  }
+  .textoMenuContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px;
+  }
+  .texto-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 750px;
+    letter-spacing: 1px;
+  }
+  .texto-menu h3 {
+    font-size: 28px;
+    color: #333;
+    -webkit-animation: bounceIn;
+            animation: bounceIn;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    letter-spacing: 1px;
+  }
+  .texto-menu p {
+    font-size: 18px;
+    margin-top: 25px;
+    color: #333;
+    letter-spacing: 1px;
+  }
+  .titulo h3 {
+    font-size: 38px;
+  }
+  .texto-menu h3 {
+    font-size: 22px;
+  }
+  .texto-menu {
+    width: 85%;
+  }
+  .texto-menu h3 {
+    font-size: 26px;
+  }
+  .texto-menu p {
+    font-size: 18px;
+  }
+  /*BARRA INFO*/
+  .enviosContainer h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* CONTAINER DE PAGOS*/
+  .containerPagosYoPadre {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .containerPagosYO {
+    width: 50%;
+  }
+  /* NEWSLETTER GENERAL*/
+  .newsletterContenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 180px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .newsletter {
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .newsletter h1 {
+    font-size: 25px;
+  }
+  .newsletter .email {
+    height: 35px;
+    width: 68%;
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 1.0em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  .newsletter .button {
+    height: 30px;
+    width: 12%;
+    margin: 0px -10px;
+    font-weight: bold;
+    background: #1b1818;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+  .texto-menu2 h3 {
+    font-size: 24px;
+  }
+  .containerInfo {
+    display: none;
+  }
+  /*PRODUCTOS */
+  .menuProductos {
+    height: auto;
+  }
+  .fondoResponsive {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 260%;
+  }
+  .fondoResponsive2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+  }
+  /* NOSOTROS*/
+  .menuNosotros {
+    height: auto;
+  }
+  .textoMenuContainerNosotros {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 920px;
+    gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .texto-menuNosotros {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    height: 400px;
+    width: 85%;
+    gap: 25px;
+  }
+  .containerInfoNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 900px;
+  }
+  .containerInfoInsideNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 60px;
+  }
+  .containerInfoInsideNosotros .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+  }
+  /* CONTACTO */
+  .containerContact {
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .tituloContact {
+    height: 20px;
+    width: 450px;
+  }
+  .inputContact {
+    height: 35px;
+    width: 300px;
+  }
+  .inputContact input {
+    width: 300px;
+    height: 35px;
+  }
+  .textAreaContact {
+    width: 300px;
+  }
+  .textAreaContact textarea {
+    width: 300px;
+  }
+  .buttonsForm {
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

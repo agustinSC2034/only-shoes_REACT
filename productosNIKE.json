@@ -1,0 +1,77 @@
+[
+  {
+    "nombre": "Buzo Nike Nsw",
+    "precio": 23000,
+    "img": "../.././img/nike/Buzo_Nike_Nsw.jpg"
+  },
+  {
+    "nombre": "Campera Jordan",
+    "precio": 23000,
+    "img": "../.././img/nike/Campera_Jordan.jpg"
+  },
+  {
+    "nombre": "Campera Nike Fc Barcelona",
+    "precio": 23000,
+    "img": "../.././img/nike/Campera_Nike_Fc_Barcelona.jpg"
+  },
+  {
+    "nombre": "Campera Nike Windrunner",
+    "precio": 23000,
+    "img": "../.././img/nike/Campera_Nike_Windrunner.jpg"
+  },
+  {
+    "nombre": "Campera Nike Yoga",
+    "precio": 23000,
+    "img": "../.././img/nike/Campera_Nike_Yoga.jpg"
+  },
+  {
+    "nombre": "Ojotas Nike Victori One",
+    "precio": 8000,
+    "img": "../.././img/nike/Ojotas_Nike_Victori_One.jpg"
+  },
+  {
+    "nombre": "Ojotas Nike Victori",
+    "precio": 23000,
+    "img": "../.././img/nike/Ojotas_Nike_Victori.jpg"
+  },
+  {
+    "nombre": "Pack de Medias Nike",
+    "precio": 23000,
+    "img": "../.././img/nike/Pack_de_Medias__Nike.jpg"
+  },
+  {
+    "nombre": "Pantalón Nike Liverpool",
+    "precio": 23000,
+    "img": "../.././img/nike/Pantalón_Nike_Liverpool.jpg"
+  },
+  {
+    "nombre": "Remera Nike Dri-FIT",
+    "precio": 23000,
+    "img": "../.././img/nike/Remera_Nike__Dri-FIT.jpg"
+  },
+  {
+    "nombre": "Remera Nike Drifit",
+    "precio": 23000,
+    "img": "../.././img/nike/Remera_Nike_Drifit.jpg"
+  },
+  {
+    "nombre": "Remera Nike Kenya",
+    "precio": 23000,
+    "img": "../.././img/nike/Remera_Nike_Kenya.jpg"
+  },
+  {
+    "nombre": "Remera Nike Sportswear",
+    "precio": 23000,
+    "img": "../.././img/nike/Remera_Nike_Sportswear.jpg"
+  },
+  {
+    "nombre": "Short Nike Dri-FIT",
+    "precio": 23000,
+    "img": "../.././img/nike/Short_Nike_Dri-FIT.jpg"
+  },
+  {
+    "nombre": "Short Nike Liverpool FC",
+    "precio": 23000,
+    "img": "../.././img/nike/Short_Nike_Liverpool_FC.jpg"
+  }
+]

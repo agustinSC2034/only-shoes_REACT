@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": "Buzo adidas Essential",
+    "precio": 12000,
+    "img": "../.././img/adidas/Buzo_adidas_Essential.jpg"
+  },
+  {
+    "nombre": "Buzo adidas Essentials",
+    "precio": 18000,
+    "img": "../.././img/adidas/Buzo_adidas_Essentials.jpg"
+  },
+  {
+    "nombre": "Campera adidas Bold",
+    "precio": 16000,
+    "img": "../.././img/adidas/Campera_adidas_Bold.jpg"
+  },
+  {
+    "nombre": "Campera adidas Marathon",
+    "precio": 15000,
+    "img": "../.././img/adidas/Campera_adidas_Marathon.jpg"
+  },
+  {
+    "nombre": "Campera adidas Own",
+    "precio": 17000,
+    "img": "../.././img/adidas/Campera_adidas_Own.jpg"
+  },
+  {
+    "nombre": "Campera adidas Sportswear",
+    "precio": 16000,
+    "img": "../.././img/adidas/Campera_adidas_Sportswear.jpg"
+  },
+  {
+    "nombre": "Chomba adidas Pique Polo",
+    "precio": 14000,
+    "img": "../.././img/adidas/Chomba_adidas_Pique_Polo.jpg"
+  },
+  {
+    "nombre": "Chomba adidas Polo",
+    "precio": 15000,
+    "img": "../.././img/adidas/Chomba_adidas_Polo.jpg"
+  },
+  {
+    "nombre": "Conjunto adidas Teamsport",
+    "precio": 11000,
+    "img": "../.././img/adidas/Conjunto_adidas_Teamsport.jpg"
+  },
+  {
+    "nombre": "Pantalón adidas Zne",
+    "precio": 12000,
+    "img": "../.././img/adidas/Pantalón_adidas_Zne.jpg"
+  },
+  {
+    "nombre": "Pelota adidas Al Rihla",
+    "precio": 13000,
+    "img": "../.././img/adidas/Pelota_adidas_Al_Rihla.jpg"
+  }
+]
