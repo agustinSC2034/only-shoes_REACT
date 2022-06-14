@@ -757,6 +757,44 @@ footer .footerText {
   background: url(../img/portadas/underArmour.jpg);
 }
 
+.fondoVans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/vans.jpg);
+}
+
+.fondoNewBalance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../img/portadas/newBalance.jpg);
+}
+
 /*CATEGORIAS Y MARCAS: Menu de productos*/
 .menuProductos {
   display: -webkit-box;
@@ -861,6 +899,22 @@ footer .footerText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.addWishlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18%;
+  height: 38px;
+  background: url(../img/otras/corazoncito.PNG);
+  background-position: center;
+  margin-right: 10px;
+}
+
+.addWishlist:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 /*VARIABLES*/

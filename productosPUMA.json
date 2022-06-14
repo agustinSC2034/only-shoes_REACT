@@ -1,82 +1,167 @@
 [
   {
-    "nombre": "Buzo Puma As Training",
-    "precio": 13000,
-    "img": "../.././img/puma/Buzo_Puma_As_Training.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cruise_Rider_Silk_2.jpg"
   },
   {
-    "nombre": "Buzo Puma Downtown Crew",
-    "precio": 15000,
-    "img": "../.././img/puma/Buzo_Puma_Downtown_Crew.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cruise_Rider_Silk.jpg"
   },
   {
-    "nombre": "Buzo Puma Downtown",
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Displaced.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Ferrari_Ion_Speed.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Ferrari_Ion.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas__Puma_Cali.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cali_2.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cali_Dream.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cali_Star_2.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cali_Star.jpg"
+  },
+  {
+    "nombre": "aaa",
     "precio": 8000,
-    "img": "../.././img/puma/Buzo_Puma_Downtown.jpg"
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cali_Wedge.jpg"
   },
   {
-    "nombre": "Buzo Puma Essentials",
-    "precio": 9000,
-    "img": "../.././img/puma/Buzo_Puma_Essentials.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cali_Wedge2.jpg"
   },
   {
-    "nombre": "Buzo Puma Ferrari",
-    "precio": 10000,
-    "img": "../.././img/puma/Buzo_Puma_Ferrari.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Cell_Vive.jpg"
   },
   {
-    "nombre": "Buzo Puma Manchester City",
-    "precio": 15000,
-    "img": "../.././img/puma/Buzo_Puma_Manchester_City.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_City.jpg"
   },
   {
-    "nombre": "Buzo Puma Rebel",
-    "precio": 15000,
-    "img": "../.././img/puma/Buzo_Puma_Rebel.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Ferrari_Race_Future.jpg"
   },
   {
-    "nombre": "Buzo Puma Train PWRFleece",
-    "precio": 13000,
-    "img": "../.././img/puma/Buzo_Puma_Train_PWRFleece.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Future_Rider.jpg"
   },
   {
-    "nombre": "Campera Puma As Track",
-    "precio": 12000,
-    "img": "../.././img/puma/Campera_Puma_As_Track.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Graviton_Pro.jpg"
   },
   {
-    "nombre": "Campera Puma BMW",
-    "precio": 11000,
-    "img": "../.././img/puma/Campera_Puma_BMW.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Jada.jpg"
   },
   {
-    "nombre": "Campera Puma Gloaming",
-    "precio": 10000,
-    "img": "../.././img/puma/Campera_Puma_Gloaming.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Mayze_Leather.jpg"
   },
   {
-    "nombre": "Campera Puma Power",
-    "precio": 9000,
-    "img": "../.././img/puma/Campera_Puma_Power.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Mayze.jpg"
   },
   {
-    "nombre": "Pantalón Puma Conic",
-    "precio": 13000,
-    "img": "../.././img/puma/Pantalón_Puma_Conic.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Mirage.jpg"
   },
   {
-    "nombre": "Remera Puma Classics Logo",
-    "precio": 14000,
-    "img": "../.././img/puma/Remera_Puma_Classics_Logo.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_R78_Trek.jpg"
   },
   {
-    "nombre": "Remera Puma Classics",
-    "precio": 11000,
-    "img": "../.././img/puma/Remera_Puma_Classics.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_R78.jpg"
   },
   {
-    "nombre": "Remera Puma Run",
-    "precio": 12000,
-    "img": "../.././img/puma/Remera_Puma_Run.jpg"
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Rs_Connect.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_RS-Fast_Mix.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Rs-X.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_RS.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Shuffle.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Suede_red.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Suede.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Wild.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_Wired.jpg"
+  },
+  {
+    "nombre": "aaa",
+    "precio": 23000,
+    "img": "../.././img/marcas/puma/Zapatillas_Puma_X-Ray²_Safari.jpg"
   }
 ]

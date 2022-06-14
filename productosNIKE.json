@@ -1,77 +1,202 @@
 [
   {
-    "nombre": "Buzo Nike Nsw",
+    "nombre": "Zapatillas Nike Air Force 1 07",
     "precio": 23000,
-    "img": "../.././img/nike/Buzo_Nike_Nsw.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Force_1_07.jpg"
   },
   {
-    "nombre": "Campera Jordan",
+    "nombre": "Zapatillas Nike Air Force 1 Fontanka",
     "precio": 23000,
-    "img": "../.././img/nike/Campera_Jordan.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Force_1_Fontanka.jpg"
   },
   {
-    "nombre": "Campera Nike Fc Barcelona",
+    "nombre": "Zapatillas Nike Air Force 1 Lv8",
     "precio": 23000,
-    "img": "../.././img/nike/Campera_Nike_Fc_Barcelona.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Force_1_Lv8.jpg"
   },
   {
-    "nombre": "Campera Nike Windrunner",
-    "precio": 23000,
-    "img": "../.././img/nike/Campera_Nike_Windrunner.jpg"
+    "nombre": "Zapatillas Nike Air Force One Shadow",
+    "precio": 20000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Force_One_Shadow.jpg"
   },
   {
-    "nombre": "Campera Nike Yoga",
+    "nombre": "Zapatillas Nike Air Max 90 Premium",
     "precio": 23000,
-    "img": "../.././img/nike/Campera_Nike_Yoga.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_90_Premium.jpg"
   },
   {
-    "nombre": "Ojotas Nike Victori One",
+    "nombre": "Zapatillas Nike Air Max 1",
     "precio": 8000,
-    "img": "../.././img/nike/Ojotas_Nike_Victori_One.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_1.jpg"
   },
   {
-    "nombre": "Ojotas Nike Victori",
+    "nombre": "Zapatillas Nike Air Max 95",
     "precio": 23000,
-    "img": "../.././img/nike/Ojotas_Nike_Victori.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_95.jpg"
   },
   {
-    "nombre": "Pack de Medias Nike",
+    "nombre": "Zapatillas Nike Air Max 96 II",
     "precio": 23000,
-    "img": "../.././img/nike/Pack_de_Medias__Nike.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_96_II.jpg"
   },
   {
-    "nombre": "Pantalón Nike Liverpool",
+    "nombre": "Zapatillas Nike Air Max 97 II",
     "precio": 23000,
-    "img": "../.././img/nike/Pantalón_Nike_Liverpool.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_97_II.jpg"
   },
   {
-    "nombre": "Remera Nike Dri-FIT",
+    "nombre": "Zapatillas Nike Air Max 200",
     "precio": 23000,
-    "img": "../.././img/nike/Remera_Nike__Dri-FIT.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_200.jpg"
   },
   {
-    "nombre": "Remera Nike Drifit",
+    "nombre": "Zapatillas Nike Air Max 97Se",
     "precio": 23000,
-    "img": "../.././img/nike/Remera_Nike_Drifit.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_97Se.jpg"
   },
   {
-    "nombre": "Remera Nike Kenya",
+    "nombre": "Zapatillas Nike Air Max 97",
     "precio": 23000,
-    "img": "../.././img/nike/Remera_Nike_Kenya.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_97.jpg"
   },
   {
-    "nombre": "Remera Nike Sportswear",
+    "nombre": "Zapatillas Nike Air Max 200 colou",
     "precio": 23000,
-    "img": "../.././img/nike/Remera_Nike_Sportswear.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_200_colou.jpg"
   },
   {
-    "nombre": "Short Nike Dri-FIT",
+    "nombre": "Zapatillas Nike Air Max 270 React Se",
     "precio": 23000,
-    "img": "../.././img/nike/Short_Nike_Dri-FIT.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_270_React_Se.jpg"
   },
   {
-    "nombre": "Short Nike Liverpool FC",
+    "nombre": "Zapatillas Nike Air Max 270",
     "precio": 23000,
-    "img": "../.././img/nike/Short_Nike_Liverpool_FC.jpg"
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_270.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Max Dawn",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_Dawn.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Max Dawn1",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_Dawn1.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Max Dia",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_Dia.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Max Excee",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_Excee.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Max Pre",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_Pre-Day.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Max Sc",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_Sc.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Max ZM950",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Max_ZM950.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Vapormax 2021",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Vapormax_2021.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air VaporMax",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_VaporMax.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Zoom Gp",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Zoom_Gp.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Zoom Pegasus",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Zoom_Pegasus.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Zoom Tempo",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Zoom_Tempo.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Air Zoom",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Air_Zoom.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Court Vision Alta",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Court_Vision_Alta.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Court Vision Low",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Court_Vision_Low.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Dunk Low Se",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Dunk_Low_Se.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Free Metcon",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Free_Metcon.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike React Miler",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_React_Miler.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Reposto",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Reposto.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Tanjun",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Tanjun.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Venture Runner",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Venture_Runner.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Waffle One",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Waffle_One.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike Zoom Vapor",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_Zoom_Vapor.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike ZoomX Vaporfly",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/Zapatillas_Nike_ZoomX_Vaporfly.jpg"
+  },
+  {
+    "nombre": "Zapatillas Nike React Infinity",
+    "precio": 23000,
+    "img": "../.././img/marcas/nike/ZapatillasNike_React_Infinity.jpg"
   }
 ]

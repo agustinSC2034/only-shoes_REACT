@@ -153,42 +153,6 @@ const renderizarProductosZAPAS = async () => {
   })
 }
 
-const renderizarProductosADIDAS = async () => {
-  const stockADIDAS = await fetch('../.././productosADIDAS.json')
-  const stock5 = await stockADIDAS.json()
-  stock5.forEach((productos) => {
-    const tarjetaPrincipalADIDAS = document.createElement('div')
-    tarjetaPrincipalADIDAS.innerHTML = `
-    <div class="col mb-5 tarjetaIndividual">
-    <div class="card h-100 tarjetaMIA item">
-                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
-                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
-                                    <h7 class="fw-bolderPrecio">Pesos</h7>
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center claseBotonTarjeta">
-                                    <button type="button" class="btn btn-outline-primary addToCart"
-                                        data-id="1">Comprar</button>
-                                </div>
-                            </div>
-                            </div>
-                            </div>
-    `
-    tarjetaTotalADIDAS.append(tarjetaPrincipalADIDAS)
-    comprarButton.addEventListener("click", comprarCarrito);
-    // Tomo todos los botones
-    const buttonClick = document.querySelectorAll(".addToCart");
-    // Recorro los botones y ejecuto funcion al apretar
-    buttonClick.forEach((btn) => {
-      btn.addEventListener("click", addToCarritoItem);
-    });
-  })
-}
-
 const renderizarProductosNIKE = async () => {
   const stockNIKE = await fetch('../.././productosNIKE.json')
   const stock6 = await stockNIKE.json()
@@ -211,6 +175,8 @@ const renderizarProductosNIKE = async () => {
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                        data-id="1"></button>
                                     <button type="button" class="btn btn-outline-primary addToCart"
                                         data-id="1">Comprar</button>
                                 </div>
@@ -219,6 +185,44 @@ const renderizarProductosNIKE = async () => {
                             </div>
     `
     tarjetaTotalNIKE.append(tarjetaPrincipalNIKE)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosADIDAS = async () => {
+  const stockADIDAS = await fetch('../.././productosADIDAS.json')
+  const stock5 = await stockADIDAS.json()
+  stock5.forEach((productos) => {
+    const tarjetaPrincipalADIDAS = document.createElement('div')
+    tarjetaPrincipalADIDAS.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalADIDAS.append(tarjetaPrincipalADIDAS)
     comprarButton.addEventListener("click", comprarCarrito);
     // Tomo todos los botones
     const buttonClick = document.querySelectorAll(".addToCart");
@@ -251,6 +255,8 @@ const renderizarProductosPUMA = async () => {
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
                                     <button type="button" class="btn btn-outline-primary addToCart"
                                         data-id="1">Comprar</button>
                                 </div>
@@ -259,6 +265,385 @@ const renderizarProductosPUMA = async () => {
                             </div>
     `
     tarjetaTotalPUMA.append(tarjetaPrincipalPUMA)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosASICS = async () => {
+  const stockASICS = await fetch('../.././productosASICS.json')
+  const stock8 = await stockASICS.json()
+  stock8.forEach((productos) => {
+    const tarjetaPrincipalASICS = document.createElement('div')
+    tarjetaPrincipalASICS.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalASICS.append(tarjetaPrincipalASICS)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosCONVERSE = async () => {
+  const stockCONVERSE = await fetch('../.././productosCONVERSE.json')
+  const stock9 = await stockCONVERSE.json()
+  stock9.forEach((productos) => {
+    const tarjetaPrincipalCONVERSE = document.createElement('div')
+    tarjetaPrincipalCONVERSE.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalCONVERSE.append(tarjetaPrincipalCONVERSE)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosFILA = async () => {
+  const stockFILA = await fetch('../.././productosFILA.json')
+  const stock10 = await stockFILA.json()
+  stock10.forEach((productos) => {
+    const tarjetaPrincipalFILA = document.createElement('div')
+    tarjetaPrincipalFILA.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalFILA.append(tarjetaPrincipalFILA)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosNEW_BALANCE = async () => {
+  const stockNEW_BALANCE = await fetch('../.././productosNEW_BALANCE.json')
+  const stock11 = await stockNEW_BALANCE.json()
+  stock11.forEach((productos) => {
+    const tarjetaPrincipalNEW_BALANCE = document.createElement('div')
+    tarjetaPrincipalNEW_BALANCE.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalNEW_BALANCE.append(tarjetaPrincipalNEW_BALANCE)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosPONY = async () => {
+  const stockPONY = await fetch('../.././productosPONY.json')
+  const stock12 = await stockPONY.json()
+  stock12.forEach((productos) => {
+    const tarjetaPrincipalPONY = document.createElement('div')
+    tarjetaPrincipalPONY.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalPONY.append(tarjetaPrincipalPONY)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosREEBOK = async () => {
+  const stockREEBOK = await fetch('../.././productosREEBOK.json')
+  const stock13 = await stockREEBOK.json()
+  stock13.forEach((productos) => {
+    const tarjetaPrincipalREEBOK = document.createElement('div')
+    tarjetaPrincipalREEBOK.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalREEBOK.append(tarjetaPrincipalREEBOK)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosTOPPER = async () => {
+  const stockTOPPER = await fetch('../.././productosTOPPER.json')
+  const stock14 = await stockTOPPER.json()
+  stock14.forEach((productos) => {
+    const tarjetaPrincipalTOPPER = document.createElement('div')
+    tarjetaPrincipalTOPPER.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalTOPPER.append(tarjetaPrincipalTOPPER)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosUNDER_ARMOUR = async () => {
+  const stockUNDER_ARMOUR = await fetch('../.././productosUNDER_ARMOUR.json')
+  const stock15 = await stockUNDER_ARMOUR.json()
+  stock15.forEach((productos) => {
+    const tarjetaPrincipalUNDER_ARMOUR = document.createElement('div')
+    tarjetaPrincipalUNDER_ARMOUR.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-primary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalUNDER_ARMOUR.append(tarjetaPrincipalUNDER_ARMOUR)
+    comprarButton.addEventListener("click", comprarCarrito);
+    // Tomo todos los botones
+    const buttonClick = document.querySelectorAll(".addToCart");
+    // Recorro los botones y ejecuto funcion al apretar
+    buttonClick.forEach((btn) => {
+      btn.addEventListener("click", addToCarritoItem);
+    });
+  })
+}
+
+const renderizarProductosVANS = async () => {
+  const stockVANS = await fetch('../.././productosVANS.json')
+  const stock16 = await stockVANS.json()
+  stock16.forEach((productos) => {
+    const tarjetaPrincipalVANS = document.createElement('div')
+    tarjetaPrincipalVANS.innerHTML = `
+    <div class="col mb-5 tarjetaIndividual">
+    <div class="card h-100 tarjetaMIA item">
+    <div class="badge bg-primary text-white position-absolute"
+                                style="top: 0.5rem; right: 0.5rem">
+                                20% OFF</div>
+                            <img class="card-img-top item-img" src=${productos.img} alt="Camiseta de futbol" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder item-titulo">${productos.nombre}</h5>
+                                    <span class="text-muted text-decoration-line-through">${productos.precio * 120 / 100}</span>
+                                    <h5 class="fw-bolderPrecio item-precio">${productos.precio}</h5>
+                                    <h7 class="fw-bolderPrecio">Pesos</h7>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center claseBotonTarjeta">
+                                <button type="button" class="btn btn-outline-pr
+                                imary addWishlist"
+                                data-id="1"></button>
+                                    <button type="button" class="btn btn-outline-primary addToCart"
+                                        data-id="1">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+    `
+    tarjetaTotalVANS.append(tarjetaPrincipalVANS)
     comprarButton.addEventListener("click", comprarCarrito);
     // Tomo todos los botones
     const buttonClick = document.querySelectorAll(".addToCart");
@@ -279,6 +664,15 @@ const tarjetaTotalZAPAS = document.querySelector(".listaCardsZAPAS")
 const tarjetaTotalADIDAS = document.querySelector(".listaCardsADIDAS")
 const tarjetaTotalNIKE = document.querySelector(".listaCardsNIKE")
 const tarjetaTotalPUMA = document.querySelector(".listaCardsPUMA")
+const tarjetaTotalASICS = document.querySelector(".listaCardsASICS")
+const tarjetaTotalCONVERSE = document.querySelector(".listaCardsCONVERSE")
+const tarjetaTotalFILA = document.querySelector(".listaCardsFILA")
+const tarjetaTotalNEW_BALANCE = document.querySelector(".listaCardsNEW_BALANCE")
+const tarjetaTotalPONY = document.querySelector(".listaCardsPONY")
+const tarjetaTotalREEBOK = document.querySelector(".listaCardsREEBOK")
+const tarjetaTotalTOPPER = document.querySelector(".listaCardsTOPPER")
+const tarjetaTotalUNDER_ARMOUR = document.querySelector(".listaCardsUNDER_ARMOUR")
+const tarjetaTotalVANS = document.querySelector(".listaCardsVANS")
 // Creo var para almacenar html a renderizar
 const carritoHtml = document.querySelector(".shoppingCartItemsContainer");
 // Boton comprar carrito
@@ -298,6 +692,15 @@ renderizarProductosZAPAS();
 renderizarProductosADIDAS();
 renderizarProductosNIKE();
 renderizarProductosPUMA();
+renderizarProductosASICS();
+renderizarProductosCONVERSE();
+renderizarProductosFILA();
+renderizarProductosNEW_BALANCE();
+renderizarProductosPONY();
+renderizarProductosREEBOK();
+renderizarProductosTOPPER();
+renderizarProductosUNDER_ARMOUR();
+renderizarProductosVANS();
 
 // Agregar item al carro
 function addToCarritoItem(event) {

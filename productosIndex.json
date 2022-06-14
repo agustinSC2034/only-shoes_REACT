@@ -1,42 +1,43 @@
 [
   {
-    "nombre": "Zapatillas Nike React Infinity Run Flyknit 2",
+    "nombre": "Zapatillas Nike Air Force One Shadow",
     "precio": 20000,
-    "img": "./img/zapatillas/ZapatillasNikeReactInfinityRunFlyknit2.jpg"
+    "img": "./img/Marcas/nike/Zapatillas_Nike_Air_Force_One_Shadow.jpg"
   },
   {
-    "nombre": "Zapatillas Nike Zoom Vapor Pro",
-    "precio": 34000,
-    "img": "./img/zapatillas/ZapatillasNikeZoomVaporPro.jpg"
+    "nombre": "Zapatillas adidas Continental 80",
+    "precio": 20000,
+    "img": "./img/Marcas/adidas/Zapatillas_adidas_Continental_80.jpg"
   },
   {
-    "nombre": "Camiseta Broklin Nets",
-    "precio": 9000,
-    "img": "./img/camisetasNBA/broklin.png"
+    "nombre": "Zapatillas adidas Ultraboost",
+    "precio": 20000,
+    "img": "./img/Marcas/adidas/Zapatillas_adidas_Ultraboost.jpg"
   },
   {
-    "nombre": "Campera Jordan",
-    "precio": 33000,
-    "img": "./img/nike/Campera_Jordan.jpg"
+    "nombre": "Zapatillas Converse Chuck red",
+    "precio": 20000,
+    "img": "./img/Marcas/converse/Zapatillas_Converse_Chuck_red.jpg"
   },
   {
-    "nombre": "Ojotas Nike Victori One",
-    "precio": 8000,
-    "img": "./img/nike/Ojotas_Nike_Victori_One.jpg"
+    "nombre": "Zapatillas Asics Gel Nimbus 22 NightTrack",
+    "precio": 20000,
+    "img": "./img/Marcas/asics/Zapatillas_Asics_Gel_Nimbus_22_NightTrack.jpg"
   },
   {
-    "nombre": "Chomba adidas Pique Polo",
-    "precio": 14000,
-    "img": "./img/adidas/Chomba_adidas_Pique_Polo.jpg"
+    "nombre": "Zapatillas Puma Cali 2",
+    "precio": 20000,
+    "img": "./img/Marcas/puma/Zapatillas_Puma_Cali_2.jpg"
   },
   {
-    "nombre": "Buzo adidas Essential",
-    "precio": 12000,
-    "img": "./img/adidas/Buzo_adidas_Essential.jpg"
+    "nombre": "Zapatillas Puma Ferrari Race Future",
+    "precio": 20000,
+    "img": "./img/Marcas/puma/Zapatillas_Puma_Ferrari_Race_Future.jpg"
   },
   {
-    "nombre": "Buzo Puma Downtown Crew",
-    "precio": 15000,
-    "img": "./img/puma/Buzo_Puma_Downtown_Crew.jpg"
+    "nombre": "Zapatillas Topper circus",
+    "precio": 20000,
+    "img": "./img/Marcas/topper/Zapatillas_Topper_circus.jpg"
   }
+  
 ]
