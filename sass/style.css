@@ -429,7 +429,15 @@ footer .footerText {
 }
 
 .shopping-cart {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.listaDeCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /*VARIABLES*/
@@ -892,10 +900,12 @@ footer .footerText {
 }
 
 .shopping-cart {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.listaDeCards {
+.listaDeCardsNike {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -915,6 +925,14 @@ footer .footerText {
 .addWishlist:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.claseBotonTarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 /*VARIABLES*/

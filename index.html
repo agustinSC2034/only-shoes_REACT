@@ -30,7 +30,7 @@
     <!--NAV-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navMIO">
         <div class="container-fluid">
-            <a class="navbar-brand logoMio" href="#">DeporStore</a>
+            <a class="navbar-brand logoMio" href="#">Only Shoes</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -78,6 +78,9 @@
                         <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="pages/favoritos.html">WATCHLIST</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="pages/carrito.html">CARRITO</a>
                     </li>
                 </ul>
@@ -99,7 +102,7 @@
             <div class="carousel-item active">
                 <img src="img/otras/todas.jpg" class="d-block w-100" alt="Imagen de zapatillas">
                 <div class="carousel-caption">
-                    <h1 class="tituloEspecial">DeporStore</h1>
+                    <h1 class="tituloEspecial">Only Shoes</h1>
                     <h5 class="subtituloEspecial">Tu indumentaria en un solo lugar</h5>
                     <div class="botonesHomeEspeciales">
                         <a href="#ofertas">
@@ -112,16 +115,6 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon colorBotoncito" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon colorBotoncito" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
     <!--MENU INDEX-->
@@ -136,12 +129,15 @@
         </div>
 
         <!--CONTAINER CON TARJETAS PRODUCTOS-->
-        <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center listaDeCards">
-                </div>
-            </div>
-        </section>
+        <div class="menuProductos">
+            <!--CONTAINERS CON TARJETAS PRODUCTOS-->
+            <section class="py-5">
+                <div class="container px-4 px-lg-5 mt-5">
+                    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center listaDeCards">
+                        </div>
+                    </div>
+            </section>
+        </div>
 
         <!--INICIO CARRITO BORRAR -->
         <section id="shopping-cart" class="shopping-cart">
@@ -162,21 +158,18 @@
                 </div>
 
 
-                <!-- ? INICIO SHOPPING CART ITEMS -->
-                <div id="listaItems" class="row shopping-cart-items shoppingCartItemsContainer">
-                </div>
-                <!-- ? FINAL SHOPPING CART ITEMS -->
+             
 
-                <!-- INICIO TOTAL -->
+                <!-- INICIO TOTAL ver como borrarlo, se me borran los productos -->
                 <div class="row">
                     <div class="col-12">
                         <div class="shopping-cart-total d-flex align-items-center">
                             <p class="mb-0">Total</p>
-                            <p class="ml-4 mb-0 shoppingCartTotal">: 0.00$</p>
+                            <p class="ml-4 mb-0 shoppingCartTotal shoppingCartTotalFav">: 0.00$</p>
                             <div class="container-flex">
-                                <button id="botonCompra" class="btn btn-primary comprarButton favsButton" type="button"
+                                <button id="botonCompra" class="btn btn-primary comprarButton" type="button"
                                     data-toggle="modal" data-target="#comprarModal">Comprar</button>
-                                <button id="botonVaciar" class="btn btn-primary vaciarButtonCarro" type="button"
+                                <button id="botonVaciar" class="btn btn-primary vaciarButtonCarro vaciarButtonFav" type="button"
                                     data-toggle="modal" data-target="#comprarModal">Vaciar carrito</button>
                             </div>
                         </div>

@@ -162,9 +162,9 @@
 }
 
 .shopping-cart {
-  display: none;
+  display: flex;
 }
-.listaDeCards {
+.listaDeCardsNike {
   display: flex;
 }
 
@@ -179,4 +179,9 @@
 
 .addWishlist:hover {
   transform: scale(1.2);
+}
+
+.claseBotonTarjeta{
+  display: flex;
+  justify-content:space-around;
 }

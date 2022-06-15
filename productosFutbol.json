@@ -1,0 +1,77 @@
+[
+  {
+    "nombre": "Camiseta adidas River Plate 21",
+    "precio": 13000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_adidas_River_Plate_21.jpg"
+  },
+  {
+    "nombre": "Camiseta adidas Selección Argentina Alternativa 2021",
+    "precio": 13000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_adidas_Selección_Argentina_Alternativa_2021.jpg"
+  },
+  {
+    "nombre": "Camiseta adidas Suecia 20",
+    "precio": 8000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_adidas_Suecia_20.jpg"
+  },
+  {
+    "nombre": "Camiseta adidas Visitante Boca Juniors 21",
+    "precio": 12000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_adidas_Visitante_Boca_Juniors_21.jpg"
+  },
+  {
+    "nombre": "Camiseta Nike Atlético 2021",
+    "precio": 10000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Nike_Atlético_2021.jpg"
+  },
+  {
+    "nombre": "Camiseta Nike Barcelona 2021 Stadium Home",
+    "precio": 15000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Nike_Barcelona_2021_Stadium_Home.jpg"
+  },
+  {
+    "nombre": "Camiseta Nike Fc Barcelona 2021 Stadium",
+    "precio": 18000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Nike_Fc_Barcelona_2021_Stadium.jpg"
+  },
+  {
+    "nombre": "Camiseta Nike Inter Milan 2021",
+    "precio": 12000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Nike_Inter_Milan_2021.jpg"
+  },
+  {
+    "nombre": "Camiseta Nike Liverpool Fc 2021 Stadium Third",
+    "precio": 14000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Nike_Liverpool_Fc_2021Stadium_Third.jpg"
+  },
+  {
+    "nombre": "Camiseta Puma Borussia Dortmund",
+    "precio": 11000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Puma_Borussia_Dortmund.jpg"
+  },
+  {
+    "nombre": "Camiseta Puma Independiente Pre-Match 2020",
+    "precio": 12000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Puma_Independiente_Pre-Match_2020.jpg"
+  },
+  {
+    "nombre": "Camiseta Puma Manchester City",
+    "precio": 16000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Puma_Manchester_City.jpg"
+  },
+  {
+    "nombre": "Remera Nike France",
+    "precio": 18000,
+    "img": "../.././img/camisetasFUTBOL/Remera_Nike_France.jpg"
+  },
+  {
+    "nombre": "Camiseta Puma Manchester City FC tercera",
+    "precio": 18000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Puma_Manchester_City_FC_tercera.jpg"
+  },
+  {
+    "nombre": "Camiseta Nike Chelsea Fc 2021 Away",
+    "precio": 18000,
+    "img": "../.././img/camisetasFUTBOL/Camiseta_Nike_Chelsea_Fc_2021_Away.jpg"
+  }
+]
