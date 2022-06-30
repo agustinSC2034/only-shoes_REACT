@@ -139,45 +139,36 @@
             </section>
         </div>
 
-        <!--INICIO CARRITO BORRAR -->
-        <section id="shopping-cart" class="shopping-cart">
-            <div class="container carritoClass" id="">
-                <h1 class="text-left">CARRITO</h1>
-                <hr>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="shopping-cart-header">
-                            <h6>Producto</h6>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="shopping-cart-header">
-                            <h6 class="text-truncate">Precio</h6>
-                        </div>
-                    </div>
-                </div>
+  <!--INICIO CARRITO BORRAR-->
+  <section id="shopping-cart" class="shopping-cart">
+    <div class="container carritoClass" id="">
+        <h1 class="text-left">CARRITO</h1>
+        <hr>
+        
 
+        <!-- ? INICIO SHOPPING CART ITEMS -->
+        <div id="listaItems" class="row shopping-cart-items shoppingCartItemsContainer">
+        </div>            
+        <!-- ? FINAL SHOPPING CART ITEMS -->
 
-             
-
-                <!-- INICIO TOTAL ver como borrarlo, se me borran los productos -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="shopping-cart-total d-flex align-items-center">
-                            <p class="mb-0">Total</p>
-                            <p class="ml-4 mb-0 shoppingCartTotal shoppingCartTotalFav">: 0.00$</p>
-                            <div class="container-flex">
-                                <button id="botonCompra" class="btn btn-primary comprarButton" type="button"
-                                    data-toggle="modal" data-target="#comprarModal">Comprar</button>
-                                <button id="botonVaciar" class="btn btn-primary vaciarButtonCarro vaciarButtonFav" type="button"
-                                    data-toggle="modal" data-target="#comprarModal">Vaciar carrito</button>
-                            </div>
-                        </div>
+        <!-- INICIO TOTAL -->
+        <div class="row">
+            <div class="col-12">
+                <div class="shopping-cart-total d-flex align-items-center">
+                    <p class="mb-0">Total</p>
+                    <p class="ml-4 mb-0 shoppingCartTotal">: 0.00$</p>
+                    <div class="container-flex">
+                        <button id="botonCompra" class="btn btn-primary comprarButton" type="button"
+                            data-toggle="modal" data-target="#comprarModal">Comprar</button>
+                        <button id="botonVaciar" class="btn btn-primary vaciarButtonCarro" type="button"
+                            data-toggle="modal" data-target="#comprarModal">Vaciar carrito</button>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- FINAL CARRITO -->
+        </div>
+    </div>
+</section>
+<!-- FINAL CARRITO -->
 
         <!--Barra horizontal con info-->
         <div class="enviosContainer">
